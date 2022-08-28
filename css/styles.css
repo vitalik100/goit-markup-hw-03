@@ -35,6 +35,9 @@ li {
   margin-right: 15px;
 }
 .logo {
+  margin-right: 70px;
+}
+.logo {
   font-family: "Raleway", Roboto;
   font-weight: 700;
   font-size: 26px;
@@ -43,8 +46,31 @@ li {
 
   color: #2196f3;
 }
+.page-navigation {
+  display: flex;
+}
+.page-heder-container {
+  display: flex;
+  align-items: center;
+}
+.page-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.contact {
+  display: flex;
+}
+.contact-gmail {
+  margin-right: 50px;
+}
 .logo-header {
   color: #212121;
+}
+.menu {
+  display: flex;
+}
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 .menu {
   font-family: "Roboto", sans-serif;
@@ -60,6 +86,10 @@ li {
 .menu a:hover,
 .menu a:focus {
   color: #2196f3;
+}
+.contact-phone-number {
+  margin-right: auto;
+  margin-left: 32px;
 }
 .contact a {
   font-family: "Roboto", sans-serif;
@@ -122,6 +152,11 @@ li {
 
   color: #757575;
 }
+.pic {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .pic h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
